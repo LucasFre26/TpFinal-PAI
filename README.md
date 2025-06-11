@@ -1,4 +1,4 @@
-```markdown
+
 # Detector de Pneumonia em Raios-X
 
 Um projeto de aprendizado de máquina para classificação de imagens de raios-X torácicos em **Normal** ou **Pneumonia**, utilizando redes neurais convolucionais (CNN) com TensorFlow.
@@ -103,4 +103,3 @@ O pré-processamento é uma etapa fundamental para o desempenho do modelo. As im
 5.  **Canny Edge Detection**: Um algoritmo multi-estágio para detectar uma ampla gama de bordas em imagens. Isso ajuda o modelo a focar em contornos e estruturas.
 6.  **Normalização**: Os valores dos pixels são escalados para o intervalo `[0, 1]`, um requisito comum para treinamento de redes neurais.
 7.  **Expansão de Dimensão**: Uma dimensão extra é adicionada para representar o canal da imagem (para imagens em escala de cinza, é 1), tornando-a compatível com o formato de entrada esperado pela CNN.
-```
