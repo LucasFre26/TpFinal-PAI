@@ -2,4 +2,5 @@
 /venv
 /models/pneumonia_model.keras
 *.keras
-/src/_pycache
+/src/__pycache__
+/logs
