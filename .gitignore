@@ -1,0 +1,5 @@
+/data
+/venv
+/models/pneumonia_model.keras
+*.keras
+/src/_pycache
